@@ -17,11 +17,6 @@ struct ContentView: View {
                 .padding()
             Text("Swift Laboratory")
                 .font(.title)
-                .padding()
-            Button("Button") {
-                
-            }
-            
         }
         .padding()
     }
