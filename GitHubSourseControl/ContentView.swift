@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
             Image(systemName: "music.note")
@@ -16,6 +17,10 @@ struct ContentView: View {
                 .padding()
             Text("Swift Laboratory")
                 .font(.title)
+                .padding()
+            Button("Button") {
+                
+            }
             
         }
         .padding()
