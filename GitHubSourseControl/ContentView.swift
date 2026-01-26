@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "music.note")
-                .imageScale(.large)
+                .imageScale(.medium)
                 .foregroundStyle(.black)
                 .padding()
             Text("Swift Laboratory")
