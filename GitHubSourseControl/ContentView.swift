@@ -18,6 +18,7 @@ struct ContentView: View {
             Text("Swift Laboratory")
                 .font(.title)
             Rectangle()
+            Rectangle()
         }
         .padding()
     }
